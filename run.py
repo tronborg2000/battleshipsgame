@@ -3,8 +3,7 @@ import os
 import random as rand
 
 """
-Defining the Game class to make it easier to 
-understand the code further in the project
+Defining the Game class 
 """
 
 
