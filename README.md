@@ -1,31 +1,17 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Battleship
+Battleship is a simple Python script that allows you to play a game of battleship against the computer.
 
-Welcome tronborg2000,
+Requirements
+To run this script, you will need to have Python installed on your computer.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+How to play
+To play the game, simply run the battleship.py script. The computer will place two battleships on a 5x5 grid, and you can enter coordinates to try to hit the battleships. If you hit a battleship, the space will be marked with an 'X' and the ship will be removed from the grid. If you miss, the space will be marked with an 'O'. The game ends when all battleships have been destroyed.
 
-## Reminders
+Customizing the game
+You can customize the game by changing the values of the GRID_SIZE and NUM_SHIPS variables at the top of the battleship.py script. You can also modify the rules of the game by changing the code in the main game loop.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+Contributions
+If you would like to contribute to this project, you can submit a pull request on GitHub.
 
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
